@@ -11,7 +11,7 @@ spring:
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.117.128
+    host: 192.168.117.129
 PRODUCT:
   ribbon:
     NIWSServerListClassName: com.netflix.loadbalancer.RandomRule
