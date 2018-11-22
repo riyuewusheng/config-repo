@@ -15,6 +15,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: 192.168.117.131
+    port: 6379
 PRODUCT:
   ribbon:
     NIWSServerListClassName: com.netflix.loadbalancer.RandomRule
