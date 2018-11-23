@@ -7,7 +7,7 @@ zuul:
   #排除指定路由
   ignored-patterns:
     - /**/product/listForOrder
-  #设置取消传递参数cookie
+  # 敏感标题
   sensitive-headers:
 ribbon:
   ReadTimeout: 60000
