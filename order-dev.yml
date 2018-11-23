@@ -11,8 +11,13 @@ spring:
   jpa:
     show-sql: true
   redis:
-    host: 192.168.117.132
+    host: 192.168.117.131
     port: 6379
+  rabbitmq:
+    host: 192.168.117.131
+    port: 5672
+    username: guest
+    password: guest
 PRODUCT:
   ribbon:
     NIWSServerListClassName: com.netflix.loadbalancer.RandomRule
