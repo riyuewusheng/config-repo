@@ -17,3 +17,7 @@ spring:
 PRODUCT:
   ribbon:
     NIWSServerListClassName: com.netflix.loadbalancer.RandomRule
+eureka:	
+  client:	
+    service-url:	
+      defaultZone: http://localhost:8761/eureka/
